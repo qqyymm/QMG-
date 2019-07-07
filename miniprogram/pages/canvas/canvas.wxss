@@ -1,0 +1,19 @@
+/* miniprogram/pages/canvas/canvas.wxss */
+.btn1{
+  color: red;
+  background-color: red;
+  background-size: cover;
+  width: 100rpx;
+  height: 100rpx;
+  margin: 20rpx;
+  float:left
+}
+.btn2{
+  color: rgb(207, 24, 162);
+  background-color:  rgb(207, 24, 162);
+  background-size: cover;
+  width: 100rpx;
+  height: 100rpx;
+  margin: 20rpx;
+  float: right
+}

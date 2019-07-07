@@ -1,0 +1,5 @@
+<!--miniprogram/pages/canvas/canvas.wxml-->
+<canvas canvas-id='canvas' style='width:{{windowW}}px;height:{{windowH-100}}px'></canvas>
+<button bindtap='drawred' class='btn1' ></button>
+<button bindtap='drawpink' class='btn2' ></button>
+
