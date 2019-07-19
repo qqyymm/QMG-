@@ -1,19 +1,51 @@
 /* miniprogram/pages/canvas/canvas.wxss */
+page{
+
+height:100%
+
+}
+.scroll_box{
+width: 100%;
+height: 150rpx;
+overflow: hidden;
+padding: 20rpx;
+
+background: #fff;
+white-space: nowrap;
+border: 1px solid #ff9999;
+}
+.scroll_box scroll-view{
+  height: 100%;
+  width: auto;
+ 
+  overflow:hidden;
+}
+.item_list{
+width: 130rpx;
+height: 100%;
+margin-right: 25rpx;
+display: inline-block;
+margin-left: 10px;
+}
 .btn1{
-  color: red;
-  background-color: red;
-  background-size: cover;
-  width: 100rpx;
-  height: 100rpx;
-  margin: 20rpx;
-  float:left
+  color:white;
+  
 }
 .btn2{
-  color: rgb(207, 24, 162);
-  background-color:  rgb(207, 24, 162);
-  background-size: cover;
-  width: 100rpx;
-  height: 100rpx;
-  margin: 20rpx;
-  float: right
+
+  color:white;
+  
+}
+.copybtn{
+  background-color:#ff9999;
+  color:black;
+  font-size: 30rpx;
+  width: 50%;
+}
+
+.btn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }

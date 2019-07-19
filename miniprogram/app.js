@@ -12,11 +12,15 @@ App({
 
     this.globalData = {}
   },
+  //设置全局变量存储图片路径、五官定位API返回值等
   globalData:{
+    flag: null,
     pickurl:null,
     picpath:null,
     height:null,
     width:null,
-    mouth:null
+    mouth:null,
+    lefteyebrow:null,
+    righteyebrow:null
     }
 })

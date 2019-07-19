@@ -1,5 +1,27 @@
 <!--miniprogram/pages/canvas/canvas.wxml-->
-<canvas canvas-id='canvas' style='width:{{windowW}}px;height:{{windowH-100}}px'></canvas>
-<button bindtap='drawred' class='btn1' ></button>
-<button bindtap='drawpink' class='btn2' ></button>
+<view style='width:100%;min-height:100%;background-image:url("https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=72451810,1086441603&fm=26&gp=0.jpg");background-size:100% 100%;'>
+<canvas canvas-id='canvas' style='width:{{windowW}}px;height:{{windowH-132}}px'></canvas>
+<cover-view class="btn"> 
+<cover-image style="width: 50px; height: 50px" src='http://a4.qpic.cn/psb?/V136F3DD2uyzps/hbrYl7897krK*8srjooX0CHkbmkqvSsjC18abzbrzEc!/m/dL8AAAAAAAAAnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5' class="btn1" bindtap="lipstik" mode='aspectFit'>口红</cover-image>
+<button class='copybtn' style="width: 150px" bindtap="copyTBL">一键复制产品淘口令</button>
+<cover-image style="width: 50px; height: 50px" src='http://a3.qpic.cn/psb?/V136F3DD2uyzps/VjMdT2d8j7F6y25Us.t7HxxScidiKRawBO9R23BaSTw!/m/dL4AAAAAAAAAnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5' class="btn2" bindtap="eyebrow" mode='aspectFit'>眉笔</cover-image>
+
+</cover-view>
+
+<view class="scroll_box"> 
+    <scroll-view scroll-x="true">
+      <image src='{{showImg1}}' bindtap='draw1' class="item_list" >
+      </image>
+      <image src='{{showImg2}}' bindtap='draw2' class="item_list" >
+      </image>
+      <image src='{{showImg3}}' bindtap='draw3' class="item_list" >
+      </image>
+      <image src='{{showImg4}}' bindtap='draw4' class="item_list" >
+      </image>
+      <image src='{{showImg5}}' bindtap='draw5' class="item_list" >
+      </image>
+    </scroll-view>
+</view>
+</view>
+
 

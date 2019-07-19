@@ -1,0 +1,14 @@
+
+
+<view class='form'>
+
+<!-- 交流反馈 -->
+  <view class="uploader">
+  <navigator url="contactUs/contactUs">
+    <view class="uploader-text">
+      <text>交流反馈</text>
+    </view>
+    </navigator>
+  </view>
+  
+</view>

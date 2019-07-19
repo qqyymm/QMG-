@@ -1,16 +1,14 @@
 <!--miniprogram/pages/test/test.wxml-->
 
 <view class='form'>
-
+<image class='img1' src="../../images/cover.png" mode="widthFix"></image>
 <!-- 上传图片 -->
-  <view class="uploader">
-    <view class="uploader-text" bindtap="doUpload">
-      <text>上传图片</text>
+
+    <view  bindtap="doUpload">
+     <button class="uploader-text">上传你的照片</button>
     </view>
-    <!--<view class="uploader-container" wx:if="{{imgUrl}}">
-      <image class="uploader-image" src="{{imgUrl}}" mode="aspectFit" bindtap="previewImg"></image>
-    </view>-->
-  </view>
+
 </view>
+
 
 

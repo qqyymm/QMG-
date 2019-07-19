@@ -1,0 +1,2 @@
+<!--pages/web/taobao/taobao.wxml-->
+<image class='img' src='{{showImg}}' mode='widthFix'></image>

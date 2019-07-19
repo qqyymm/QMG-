@@ -1,0 +1,13 @@
+<!--contactUs.wxml-->
+        <view style='width:100%;min-height:100%;background-image:url("https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=72451810,1086441603&fm=26&gp=0.jpg");background-size:100% 100%;'>
+        <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+                <view class="weui-cell__bd">
+                
+                    <textarea class="weui-textarea" value="{{value}}" placeholder="{{placeholder}}" placeholder-class="placeholder" maxlength="{{maxlength}}" focus="{{focus}}" auto-height="{{auto-height}}" show-confirm-bar="{{show-confirm-bar}}"  />
+                    
+                </view>
+            </view>
+        </view>
+        </view>
+        

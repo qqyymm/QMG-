@@ -1,0 +1,6 @@
+/* pages/web/taobao/taobao.wxss */
+.img{
+
+width: 100%;
+
+}
